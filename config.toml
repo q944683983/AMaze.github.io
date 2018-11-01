@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "zh_CN"
+title = "我的第一个hugo网站"
+paginate = 5
+DisqusShortname= "yyj"
+Copyright= "All rights reserved -2018"
+theme= "jeffprod"
+[params]
+description = "这是一个简单的hugo网站"
+author = "yyj"
+[permalinks]
+	post = "/:year/:filename"
+[taxonomies]
+	tag = "tags"
+	archive = "archives"
